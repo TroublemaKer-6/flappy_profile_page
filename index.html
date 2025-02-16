@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fangfei Fan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div id="intro-popup">
+        <h2>Welcome to My Interactive Portfolio! 🚀</h2>
+        <p>This is more than just a game—it's a fun way to learn about me! Guide the bird through obstacles and discover fun facts along the way. 🎮</p>
+        <p>Try it out and explore my world in a playful way!</p>
+        <button id="close-intro">Start Exploring 🎮</button>
+    </div>
+
+    <div class="game-wrapper">
+      <div class="game-container">
+        <div class="border-top"></div>
+        <div class="sky">
+          <div class="bird"></div>
+        </div>
+        <div class="ground-moving"></div>
+      </div>
+    </div>
+  
+    <div id="start-screen">
+        <p>Press <strong>Space</strong> to jump!</p>
+        <button id="start-button">Start Game</button>
+    </div>
+  
+    <div id="countdown" class="hidden">3</div>
+  
+    <div id="game-over-screen" class="hidden">
+      <p>Game Over!</p>
+      <button id="restart-button">Restart</button>
+    </div>
+
+    <div id="about-me-popup" class="hidden">
+        <h2>About Me ✨</h2>
+        <p>Hi! I'm <strong>Fangfei Fan</strong>. Welcome to my interactive portfolio! 🎮</p>
+        <p>I'm a second-year <strong>Master of IT and Commerce</strong> student who loves coding, problem-solving, and exploring new technologies. 🚀</p>
+        <p>Have fun and enjoy the game!</p>
+        <button id="keep-playing">🎮 Keep Playing</button>
+    </div>
+        
+    <div id="hobbies-popup" class="hidden">
+        <h2>My Hobbies 🎡</h2>
+        <p> I enjoy coding, playing table tennis, bouldering, hiking, and solving puzzles. Lately, I've been really into playing Nintendo games!</p>
+        <button id="keep-playing-hobbies">🎮 Keep Playing</button>
+    </div>
+
+    <div id="contact-popup" class="hidden">
+        <h2>Contact Me 📬</h2>
+        <p>Let's connect! Click below:</p>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/fangfei-fan/" target="_blank">
+                <img src="assets/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/_fangfei_fan_?igsh=MThhZWVzaWVoMmVhaQ%3D%3D&utm_source=qr" target="_blank">
+                <img src="assets/instagram.jpeg" alt="Instagram">
+            </a>
+            <a href="https://discordapp.com/users/troublemaker4039" target="_blank">
+                <img src="assets/discord.png" alt="Discord">
+            </a>
+            <a href="https://github.com/TroublemaKer-6?tab=repositories" target="_blank">
+                <img src="assets/github.jpg" alt="GitHub">
+            </a>
+        </div>
+
+        <p>That's me!! Thank you for broswering!</p>
+        <p>If you like to keep playing, go ahead ...</p>
+        <button id="keep-playing-contact">🎮 Keep Playing</button>
+        <button id="back-to-start">🔄 Back to Start</button>
+    </div>
+
+  </body>
+</html>
