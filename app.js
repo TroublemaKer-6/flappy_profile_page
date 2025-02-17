@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function control(e) {
-        if (e.keyCode === 32 && gameStarted) {
+        if ((e.keyCode === 32 || e.type === "touchstart") && gameStarted) {
             jump();
         }
     }
@@ -229,6 +229,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     restartButton.addEventListener('click', restartGame);
     document.addEventListener('keyup', control);
+    
 
     function showAboutMePopup() {
         document.getElementById('about-me-popup').style.display = 'block';
